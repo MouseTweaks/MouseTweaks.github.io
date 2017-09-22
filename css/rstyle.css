@@ -153,3 +153,150 @@ body {
   display: inline;
   color: whitesmoke;
 }
+
+#officer {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#officers {
+	text-align: center;
+}
+
+#officercaption {
+  position: center;
+  width: 100%;
+}
+
+#officercaption div {
+  margin-top: 25px;
+}
+
+
+#officercaption div {
+  margin-top: 25px;
+}
+
+#officercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
+
+#member {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#members {
+	text-align: center;
+}
+
+#membercaption {
+  position: center;
+  width: 100%;
+}
+
+#membercaption div {
+  margin-top: 25px;
+}
+
+
+#membercaption div {
+  margin-top: 25px;
+}
+
+#membercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
+
+.rainbow {
+	text-align: center;
+	margin-top: 20px;
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+#cheerleaders {
+	text-align: center;
+}
+
+#cheercaption {
+  position: center;
+  width: 100%;
+}
+
+#cheercaption div {
+  margin-top: 25px;
+}
+
+
+#cheercaption div {
+  margin-top: 25px;
+}
+
+#cheercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
