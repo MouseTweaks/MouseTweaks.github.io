@@ -26,7 +26,7 @@ body {
 #founder {
 	text-align: center;
 	color: whitesmoke;
-	margin-top: 80px;
+	margin-top: 90px;
 }
 
 #vaginuh {
@@ -34,25 +34,21 @@ body {
 
 }
 
-#caption {
+#foundercaption {
   position: center;
   width: 100%;
 }
 
-#caption div {
+#foundercaption div {
   margin-top: 25px;
 }
 
-#content {
-  position: center;
-  width: 100%;
-}
 
-#caption div {
+#foundercaption div {
   margin-top: 25px;
 }
 
-#caption p{
+#foundercaption p{
   border-radius: 4px;
   color: white;
   position: center;
@@ -66,6 +62,11 @@ body {
   color: whitesmoke;
 }
 
+#content {
+  position: center;
+  width: 100%;
+}
+
 #title { 
   text-align: center;
   color: white;
@@ -76,6 +77,79 @@ body {
   display: center;
 }
 
-#caption p strong {
-  font-weight: 500;
+#leader {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#ciaran {
+	text-align: center;
+
+}
+
+#leadercaption {
+  position: center;
+  width: 100%;
+}
+
+#leadercaption div {
+  margin-top: 25px;
+}
+
+
+#leadercaption div {
+  margin-top: 25px;
+}
+
+#leadercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
+
+#coleader {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#coleaders {
+	text-align: center;
+}
+
+#coleadercaption {
+  position: center;
+  width: 100%;
+}
+
+#coleadercaption div {
+  margin-top: 25px;
+}
+
+
+#coleadercaption div {
+  margin-top: 25px;
+}
+
+#coleadercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
 }
