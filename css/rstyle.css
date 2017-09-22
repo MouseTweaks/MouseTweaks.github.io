@@ -268,6 +268,44 @@ body {
   color: whitesmoke;
 }
 
+#event {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#events {
+	text-align: center;
+}
+
+#eventcaption {
+  position: center;
+  width: 100%;
+}
+
+#eventcaption div {
+  margin-top: 25px;
+}
+
+
+#eventcaption div {
+  margin-top: 25px;
+}
+
+#eventcaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
+
 .rainbow {
 	text-align: center;
 	margin-top: 20px;
