@@ -23,32 +23,32 @@ body {
     min-height: 100vh;
 }
 
-#founder {
+#council {
 	text-align: center;
 	color: whitesmoke;
 	margin-top: 90px;
 }
 
-#vaginuh {
+#councils {
 	text-align: center;
 
 }
 
-#foundercaption {
+#councilcaption {
   position: center;
   width: 100%;
 }
 
-#foundercaption div {
+#councilcaption div {
   margin-top: 25px;
 }
 
 
-#foundercaption div {
+#councilcaption div {
   margin-top: 25px;
 }
 
-#foundercaption p{
+#councilcaption p{
   border-radius: 4px;
   color: white;
   position: center;
@@ -217,6 +217,44 @@ body {
 }
 
 #membercaption p{
+  border-radius: 4px;
+  color: white;
+  position: center;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.33);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  display: inline;
+  color: whitesmoke;
+}
+
+#recruit {
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+#recruits {
+	text-align: center;
+}
+
+#recruitcaption {
+  position: center;
+  width: 100%;
+}
+
+#recruitcaption div {
+  margin-top: 25px;
+}
+
+
+#recruitcaption div {
+  margin-top: 25px;
+}
+
+#recruitcaption p{
   border-radius: 4px;
   color: white;
   position: center;
