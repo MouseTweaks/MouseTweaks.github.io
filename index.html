@@ -25,6 +25,23 @@
 
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
-
+<script type="text/javascript">
+var numberOfSongs = 3
+var sound = new Array(numberOfSongs+1)
+sound[0]= "Song1.mp3"
+sound[1]= "Song2.mp3"
+sound[2]= "Song3.mp3"
+sound[3]= "Song4.mp3"
+sound[4]= "Song5.mp3"
+function randomNumber(){
+var randomLooper = -1
+while (randomLooper < 0 || randomLooper > numberOfSongs || isNaN(randomLooper)){ randomLooper = parseInt(Math.random()*(numberOfSongs))
+}
+return randomLooper
+}
+var randomsub = randomNumber()
+var soundFile = sound[randomsub]
+document.write ('<EMBED src= "' + soundFile + '" hidden=true autostart=true loop=true>')
+</script>
 </body>
 </html>
