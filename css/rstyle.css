@@ -29,20 +29,68 @@ body {
 	margin-top: 90px;
 }
 
-#councils {
-	text-align: center;
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; 
+  margin-right:auto;
+}
+
+.well-large{
+	padding:24px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px
+	}
+
+.well-small{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px
+}
+
+.title{
+	padding:5px 0 5px 10px;
+	color: #999;}
+
+
+.head-well{
+	line-height:32px;
 
 }
 
-#councilcaption {
-  position: center;
-  width: 100%;
+.well{
+margin-bottom:0;
+-webkit-box-shadow:rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0 inset;
+-moz-box-shadow:rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0 inset;
+box-shadow:rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0 inset;
+background:#202020;
+background-color:rgba(0,0,0,0.3);
+border:0px;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000)
 }
 
-#councilcaption div {
-  margin-top: 25px;
+.table-spacing{
+   border-spacing:5px;
 }
 
+.badge {
+font-family: 'Roboto', sans-serif;
+display:inline-block;
+padding:2px 8px;
+font-size:11.844px;
+font-weight:bold;
+line-height:14px;
+color:#fff;
+border-radius: 5px;
+text-shadow:1px 1px 0 black;
+white-space:nowrap;
+vertical-align:baseline;
+background-color:#999;
+box-shadow:2px 2px 0 black;
+}
 
 #councilcaption div {
   margin-top: 25px;
@@ -78,7 +126,7 @@ body {
 }
 
 #leader {
-	text-align: center;
+	text-align: left;
 	color: whitesmoke;
 	margin-top: 20px;
 }
@@ -88,36 +136,8 @@ body {
 
 }
 
-#leadercaption {
-  position: center;
-  width: 100%;
-}
-
-#leadercaption div {
-  margin-top: 25px;
-}
-
-
-#leadercaption div {
-  margin-top: 25px;
-}
-
-#leadercaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
-}
-
 #coleader {
-	text-align: center;
+	text-align: left;
 	color: whitesmoke;
 	margin-top: 20px;
 }
@@ -126,70 +146,14 @@ body {
 	text-align: center;
 }
 
-#coleadercaption {
-  position: center;
-  width: 100%;
-}
-
-#coleadercaption div {
-  margin-top: 25px;
-}
-
-
-#coleadercaption div {
-  margin-top: 25px;
-}
-
-#coleadercaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
-}
-
 #officer {
-	text-align: center;
+	text-align: left;
 	color: whitesmoke;
-	margin-top: 20px;
+	margin-top: 35px;
 }
 
 #officers {
-	text-align: center;
-}
-
-#officercaption {
-  position: center;
-  width: 100%;
-}
-
-#officercaption div {
-  margin-top: 25px;
-}
-
-
-#officercaption div {
-  margin-top: 25px;
-}
-
-#officercaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
+	margin-top: 30px;
 }
 
 #member {
@@ -200,34 +164,7 @@ body {
 
 #members {
 	text-align: center;
-}
-
-#membercaption {
-  position: center;
-  width: 100%;
-}
-
-#membercaption div {
-  margin-top: 25px;
-}
-
-
-#membercaption div {
-  margin-top: 25px;
-}
-
-#membercaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
+	margin-top: 30px;
 }
 
 #recruit {
@@ -237,78 +174,11 @@ body {
 }
 
 #recruits {
-	text-align: center;
-}
-
-#recruitcaption {
-  position: center;
-  width: 100%;
-}
-
-#recruitcaption div {
-  margin-top: 25px;
-}
-
-
-#recruitcaption div {
-  margin-top: 25px;
-}
-
-#recruitcaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
-}
-
-#event {
-	text-align: center;
-	color: whitesmoke;
-	margin-top: 20px;
-}
-
-#events {
-	text-align: center;
-}
-
-#eventcaption {
-  position: center;
-  width: 100%;
-}
-
-#eventcaption div {
-  margin-top: 25px;
-}
-
-
-#eventcaption div {
-  margin-top: 25px;
-}
-
-#eventcaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
+	margin-top: 30px;
 }
 
 .rainbow {
-	text-align: center;
-	margin-top: 20px;
+	margin-top: 30px;
    /* Chrome, Safari, Opera */
   -webkit-animation: rainbow 1s infinite; 
   
@@ -345,34 +215,59 @@ body {
 	100%{color: orange;}	
 }
 
+.cheer {
+	font-family: 'Roboto', sans-serif;
+display:inline-block;
+padding:2px 8px;
+font-size:11.844px;
+font-weight:bold;
+line-height:14px;
+color:#fff;
+border-radius: 5px;
+text-shadow:1px 1px 0 black;
+white-space:nowrap;
+vertical-align:baseline;
+background-color:#999;
+box-shadow:2px 2px 0 black;
+	text-align: center;
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+
+	
+}
+
 #cheerleaders {
 	text-align: center;
-}
-
-#cheercaption {
-  position: center;
-  width: 100%;
-}
-
-#cheercaption div {
-  margin-top: 25px;
-}
-
-
-#cheercaption div {
-  margin-top: 25px;
-}
-
-#cheercaption p{
-  border-radius: 4px;
-  color: white;
-  position: center;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background: rgba(0, 0, 0, 0.33);
-  letter-spacing: 0.25px;
-  font-weight: 200;
-  display: inline;
-  color: whitesmoke;
 }
